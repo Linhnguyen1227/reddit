@@ -8,7 +8,7 @@ app.post("/v1/updates", function (req, res){
         res.status(200).json(req.body)
     },1000)
 })
-
+//update
 
 app.listen('8000',()=>{
     console.log('Server is running.....');
